@@ -1,0 +1,59 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.todo-card {
+  width: 450px;
+  background: white;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #121212 !important;
+  color: white;
+}
+
+.dark-mode .todo-card {
+  background: #1e1e1e;
+}
+
+/* Task */
+.list-group-item {
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.list-group-item:hover {
+  transform: scale(1.02);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Overdue */
+.overdue {
+  color: red;
+  font-weight: bold;
+}
+
+/* Popup */
+.popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: red;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
